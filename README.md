@@ -24,7 +24,7 @@ This project analyzes car sales data to uncover insights on sales distribution b
   ---       
 4.	#### Power BI: .
        1. For creating interactive visualizations
-       2. For Dashboard Creation
+       2. For Dashboard Creation [View Here](https://ibb.co/LgpcFV8)
        3. For visuals that present data insights in a user-friendly format
   ----
   
