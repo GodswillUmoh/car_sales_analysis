@@ -30,19 +30,44 @@ This project analyzes car sales data to uncover insights on sales distribution b
 ### Data Overview
 The dataset includes the following columns:
 
-•	CarID: Unique identifier for each car sold.
-•	Color: Color of the car.
-•	Region: Geographic location where the car was sold.
-•	SaleDate: Date when the sale was completed.
-•	Income: Income of the buyer.
-•	Gender: Gender of the buyer.
-•	Revenue: Revenue generated from each sale.
+-	CarID: Unique identifier for each car sold.
+-	Color: Color of the car.
+-	Region: Geographic location where the car was sold.
+-	SaleDate: Date when the sale was completed.
+-	Income: Income of the buyer.
+-	Gender: Gender of the buyer.
+-	Revenue: Revenue generated from each sale.
 
-Analysis Breakdown
-1. Total Sales by Car Color
+### Analysis Breakdown
+
+1. #### Total Sales by Car Color
 Using pivot tables, I summarized the total sales by car color to understand the popularity of each color among buyers. This breakdown helps in understanding customer preferences.
-Key Insight:
+
+#### Key Insight:
 Certain colors may appeal more to buyers, informing inventory decisions and marketing strategies.
-2. Sales Distribution by Region
+
+2. ##### Sales Distribution by Region
 I analyzed sales by region using pivot tables to identify areas with the highest and lowest sales.
 
+### Queries
+```sql
+---Selecting Black cars sold---
+SELECT * FROM car_sales
+WHERE color = 'Black';
+```
+
+```sql
+---Total sales Query sort by Model---
+SELECT Model, COUNT(Car_id) AS TotalSales
+FROM car_sales
+GROUP BY Model
+ORDER BY TotalSales DESC;
+```
+
+```sql
+---Calculate Total Revenue by Dealer Region---
+SELECT Dealer_Region, SUM(Price) AS TotalRevenue
+FROM car_sales
+GROUP BY Dealer_Region
+ORDER BY TotalRevenue DESC;
+```
