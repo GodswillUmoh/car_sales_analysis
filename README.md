@@ -12,9 +12,10 @@ This project analyzes car sales data to uncover insights on sales distribution b
 ### Data Source: kaggle.com 
 
 ### Tools Used
-1.	#### Excel Pivot Tables:  and 
+1.	#### Excel Pivot Tables:  
      1. For summarizing
      2. exploring trends in car sales data.
+     3. [View Visuals Here](https://ibb.co/HN9GT9X)
 ---      
 2.	#### SQL: For querying the dataset to:
       1. calculate totals
@@ -71,3 +72,9 @@ FROM car_sales
 GROUP BY Dealer_Region
 ORDER BY TotalRevenue DESC;
 ```
+
+### Data Visualization
+
+![Screenshot (188)](https://github.com/user-attachments/assets/cc96052d-ab88-4646-9c0a-7697f0a6c1d5)
+
+
