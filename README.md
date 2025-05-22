@@ -76,14 +76,17 @@ ORDER BY TotalRevenue DESC;
 ### Data Visualization
 
 ![Screenshot (188)](https://github.com/user-attachments/assets/cc96052d-ab88-4646-9c0a-7697f0a6c1d5)
+
 ---
 
-#### Second Car Dashboard
+### Second Car Dashboard
 ![car_kelechi](https://github.com/user-attachments/assets/e4c0c9c2-a9a5-4c72-a0af-7b81b3263ff3)
+
 ---
 
-#### Visuals for Performance from January to Decembder
+### Visuals for Performance from January to December
 ![Screenshot (392)](https://github.com/user-attachments/assets/0843a10f-3602-4a45-9d24-748bd506c7af)
 
+---
 
 
