@@ -77,4 +77,7 @@ ORDER BY TotalRevenue DESC;
 
 ![Screenshot (188)](https://github.com/user-attachments/assets/cc96052d-ab88-4646-9c0a-7697f0a6c1d5)
 
+![car_kelechi](https://github.com/user-attachments/assets/e4c0c9c2-a9a5-4c72-a0af-7b81b3263ff3)
+
+
 
